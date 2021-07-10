@@ -4,8 +4,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%
-// 파라미터 값 가져오기
 
+// 파라미터 값 가져오기
 int no = Integer.parseInt(request.getParameter("no"));
 String pass = request.getParameter("pass");
 String pw = request.getParameter("pw");
