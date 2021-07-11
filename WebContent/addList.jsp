@@ -1,7 +1,7 @@
 <%@page import="com.javaex.vo.GuestbookVo"%>
 <%@page import="java.util.List"%>
 <%@page import="com.javaex.dao.GuestbookDao"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%
 // 사전 준비
