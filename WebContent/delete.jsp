@@ -8,9 +8,7 @@
 // 파라미터 값 가져오기
 int no = Integer.parseInt(request.getParameter("no"));
 String pass = request.getParameter("pass");
-String pw = request.getParameter("pw");
 
-System.out.println("no: " + no + ", pass: " + pass + ", pw: " + pw);
 
 //사전 준비
 GuestbookDao guestbookDao = new GuestbookDao();

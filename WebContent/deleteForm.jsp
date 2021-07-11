@@ -23,7 +23,6 @@ GuestbookVo guestbookVo = guestbookDao.guestNoPw(no);
 		<label>비밀번호</label>
 		<input type="password" name="pass" value="">
 		<button type="submit">확인</button>
-		<input type="hidden" name="pw" value="<%=guestbookVo.getPassword()%>">
 		<input type="hidden" name="no" value="<%=guestbookVo.getNo()%>">
 	</form>
 
