@@ -21,7 +21,7 @@ List<GuestbookVo> guestList = guestbookDao.getGuestbookList();
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="./add.jsp" method="post">
+	<form action="/guestbook2/gbc" method="post">
 		<table border="1" width="550">
 			<tr>
 				<td>이름</td>
